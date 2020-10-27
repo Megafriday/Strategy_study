@@ -4,7 +4,7 @@ import ducks.wings.IFWings;
 
 public abstract class AbstractDuck {
 
-	IFWings ifWings;
+	protected IFWings ifWings;
 
 	public void fly() {
 		ifWings.fly();
